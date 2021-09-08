@@ -13,7 +13,9 @@
     "animate.css": "^4.1.1",
     "bootstrap": "^5.1.0",
     "vue": "^2.5.11",
-    "vue-router": "^3.5.2"
+    "vue-resource": "^1.5.3",
+    "vue-router": "^3.5.2",
+    "vuelidate": "^0.7.6"
   },
   "browserslist": [
     "> 1%",

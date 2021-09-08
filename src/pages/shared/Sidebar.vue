@@ -26,15 +26,21 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav">
-          <li class="nav-item">
-            <router-link class="nav-link js-scroll-trigger" to="/About">About </router-link>
+            <li class="nav-item">
+            <router-link class="nav-link js-scroll-trigger" to="/">Index</router-link>
           </li>
           <li class="nav-item">
-     
-          
-            <router-link class="nav-link js-scroll-trigger" to="/">Index </router-link>
+            <router-link class="nav-link js-scroll-trigger" to="/About">About</router-link>
           </li>
-
+         <li class="nav-item">
+            <router-link class="nav-link js-scroll-trigger" to="/Experiences">Experiences</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link js-scroll-trigger" to="/Contact">Contact</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link js-scroll-trigger" to="/Whether">Whether</router-link>
+          </li>
           <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
           </li> -->

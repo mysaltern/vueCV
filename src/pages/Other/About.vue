@@ -1,6 +1,6 @@
  <template>
   <div>
-      <div class="container-fluid p-0">
+    <div class="container-fluid p-0">
       <!-- About-->
       <section class="resume-section" id="about">
         <div class="resume-section-content">
@@ -31,7 +31,6 @@
         </div>
       </section>
       <hr class="m-0" />
-      
     </div>
   </div>
 </template>
