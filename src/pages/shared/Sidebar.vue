@@ -39,7 +39,10 @@
             <router-link class="nav-link js-scroll-trigger" to="/Contact">Contact</router-link>
           </li>
           <li class="nav-item">
-            <router-link class="nav-link js-scroll-trigger" to="/Whether">Whether</router-link>
+            <router-link class="nav-link js-scroll-trigger" to="/Contacts">Contact(Admin)</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link class="nav-link js-scroll-trigger" to="/Weather">Weather</router-link>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>

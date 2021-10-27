@@ -15,10 +15,10 @@
         <div class="error" v-if="!$v.email.email">
           your email format is incorrect.
         </div>
-        <tree-view
+        <!-- <tree-view
           :data="$v.email"
           :options="{ rootObjectKey: '$v.email' }"
-        ></tree-view>
+        ></tree-view> -->
         <br />
         <div
           class="form-group"
@@ -38,10 +38,10 @@
           Description must have at least
           {{ $v.description.$params.minLength.min }} letters.
         </div>
-        <tree-view
+        <!-- <tree-view
           :data="$v.description"
           :options="{ rootObjectKey: '$v.description', minLength: 20 }"
-        ></tree-view>
+        ></tree-view> -->
       </div>
     </div>
     <button
